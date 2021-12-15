@@ -1,3 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  position: inherit;
+  background-color: transparent;
+  border: 1px solid turquoise;
+  text-decoration: none;
+  list-style: none;
+  height: inherit;
+  width: inherit;
+}
+
+html {
+  position: absolute;
+  background-color: #282c34;
+  text-decoration: none;
+  list-style: none;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  position: absolute;
+  background-color: transparent;
+  text-decoration: none;
+  list-style: none;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 10vw;
+  height: auto;
+  width: auto;
+}
+
+h2 {
+  font-size: 8vw;
+  height: auto;
+  width: auto;
+}
+
 .App {
   text-align: center;
 }
@@ -22,10 +66,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
